@@ -1,0 +1,8 @@
+{
+    "EKS": "1.35",
+    "KUBECTL": "1.35.0",
+    "HELM": "4.1.1",
+    "ISTIO": "1.29.0",
+    "AWS_LOAD_BALANCER_CONTROLLER": "3.0.0",
+    "POSTGRES": "16.8"
+}
